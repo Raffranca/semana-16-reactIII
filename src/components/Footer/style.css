@@ -1,0 +1,43 @@
+
+li {
+    list-style: none;
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+    
+}
+
+ul{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagem{
+    width: 60px;
+    
+}
+
+p{
+    
+    font-size:15px;
+    color: #4f2158;
+    background-color:wheat;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    
+    .imagem{
+        width: 40px;
+    }
+    p{
+        width: 100%;
+        font-size:15px;
+        margin-bottom: 5px;
+    }
+}
