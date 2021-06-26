@@ -1,0 +1,23 @@
+input{
+    padding-left: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.img{
+    margin-top: 2rem;
+}
+
+
+.card{
+    border:white solid 3px;
+}
