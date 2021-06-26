@@ -7,11 +7,11 @@ const Footer = ()=>{
         <footer>
             <ul>
                 <li>
-                    <a className="" href="https://www.linkedin.com/in/rafaela-fran%C3%A7aa/" target="_blank"><img src={Img}alt="logo linkedin" className="imagem"/></a>
+                    <a className="" href="https://www.linkedin.com/in/rafaela-fran%C3%A7aa/" rel="noreferrer" target="_blank"><img src={Img}alt="logo linkedin" className="imagem"/></a>
                     
                 </li>
                 <li>
-                    <a className="" href="https://github.com/Raffranca" target="_blank"><img src={IMG} alt="logo github" className="imagem"/></a>
+                    <a className="" href="https://github.com/Raffranca" rel="noreferrer" target="_blank"><img src={IMG} alt="logo github" className="imagem"/></a>
                 </li>
             </ul>
                 <p>Desenvolvido durante a Reprograma por Rafaela França</p>
