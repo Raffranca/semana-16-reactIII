@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from "react";
+import Banner from "../../components/Banner";
 import Menu from "../../components/Menu";
 import Footer from "../../components/Footer";
 //import dados from "../../service/dados";
 //import Axios from 'axios';
 import './style.css';
 
-const Heros = ()=>{
+const Cards = ()=>{
     const [personagens, setPersonagem] = useState([])
     const [filtroPersonagem, setFiltroPersonagem] = useState([])
     const [busca, setBusca] = useState('')
@@ -29,6 +30,7 @@ const Heros = ()=>{
 
     return(
         <>
+            <Banner/>
             <Menu/>
             <input type="text" placeholder="Nome do personagem" onChange={e=>{setBusca(e.target.value)}}/>
             {filtroPersonagem.map(personagem=>(
@@ -49,4 +51,4 @@ const Heros = ()=>{
 
 
 
-export default Heros;
+export default Cards;

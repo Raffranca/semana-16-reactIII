@@ -4,8 +4,8 @@ import Footer from '../../components/Footer';
 const Home =()=>{
     return(
         <>
-            <Menu/>
             <Banner/>
+            <Menu/>
             <Footer/>
         </>
 
